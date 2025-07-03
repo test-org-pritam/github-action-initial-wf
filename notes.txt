@@ -44,3 +44,4 @@ at the time of rerun if we want by default the debug logs then
         [actions skip]
 
 // workflow commands for github actions
+    using echo 
