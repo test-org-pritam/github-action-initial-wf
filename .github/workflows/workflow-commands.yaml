@@ -15,3 +15,14 @@ jobs:
               run: echo "::warning title=Warning Semicolon,file=app.js,line=2,endLine=3,col=5,endColumn=7::Missing Semicolon"
             - name: Setting and notice message with params 
               run: echo "::notice title=Notice Semicolon,file=app.js,line=2,endLine=3,col=5,endColumn=7::Missing Semicolon"
+            - name: Group of logs
+              run: |
+                  echo "::group::Group of logs"
+                  echo "Line 1"
+                  echo "Line 2"
+                  echo "Line 3"
+                  echo "::endgroup::"
+            - name: Masking a string
+              run: echo "::add-mask::password"
+            - name: echo a message
+              run: echo "Hello World"
