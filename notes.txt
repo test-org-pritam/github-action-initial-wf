@@ -81,3 +81,11 @@ if public?
     actions/hello-world-javascript-action@ varsion <- best practice
 
     actions produces output
+
+in ubuntu 
+*** Accessing directly the value
+    we get value directly using $ENV_VARIABLE_NAME
+if we need to refer from some other place then 
+*** Accessing Values via Expressions
+    ${{ secrets.GITHUB_TOKEN }}
+    ${{ steps.greet.outputs.time }}
