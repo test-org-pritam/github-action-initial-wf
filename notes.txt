@@ -65,3 +65,19 @@ https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions?
 we can change 
     workign directory in wf level , job level and step level
     shell  in wf level , job level and step level
+
+3 types actions 
+    - js actions (works on all tpes of runner os)
+    - docker based actions (can be ran in any language, but slower)
+    - composit actions (combine multiple steps as action and reference them anywhere else)
+    
+for private action, 
+    suppose the action lies with in your repository 
+    just reference the path path of the action
+if public?
+    then repo name
+    actions/hello-world-javascript-action@ branch name 
+    actions/hello-world-javascript-action@commit id // most reliable but unable to track update
+    actions/hello-world-javascript-action@ varsion <- best practice
+
+    actions produces output
