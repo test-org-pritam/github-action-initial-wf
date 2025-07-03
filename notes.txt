@@ -17,3 +17,18 @@ we can check workflow files and usage in workflow runs
 
 organization//settings/actions/hosted-runners -> 
     can monitor the currently running jobs
+
+
+click on line number in debugging in workflow jobs , then copy the url and then
+you can easily share the issue, we can dwnload log files also
+show timestamp and delete log ...
+
+at the time of rerun if we want by default the debug logs then 
+    wf - settings - secrets and variables - variables - new repo variable 
+        ACTIONS_STEP_DEBUG // will add more logs in our logs
+        true
+
+        ACTIONS_RUNNER_DEBUG // will add more log files in the downloaded log archive 
+        true
+
+    same will work for secrets
