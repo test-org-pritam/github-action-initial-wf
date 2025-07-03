@@ -3,3 +3,6 @@ gh workflow view "First Workflow"
 
 // to view all wf 
 gh workflow list
+
+gh workflow disable "First Workflow"
+gh workflow enable "First Workflow"
