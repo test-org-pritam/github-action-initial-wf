@@ -25,4 +25,9 @@ jobs:
             - name: Masking a string
               run: echo "::add-mask::password"
             - name: echo a message
-              run: echo "Hello World"
+              run: echo "password"
+            - name: another masking example
+              run: |
+                  MY_PASSWORD="password"
+                  echo "::add-mask::$MY_PASSWORD"
+                  echo "$MY_PASSWORD"
