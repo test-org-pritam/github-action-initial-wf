@@ -25,10 +25,20 @@ show timestamp and delete log ...
 
 at the time of rerun if we want by default the debug logs then 
     wf - settings - secrets and variables - variables - new repo variable 
-        ACTIONS_STEP_DEBUG // will add more logs in our logs
+        ACTIONS_STEP_DEBUG // will add more logs in our job logs
         true
 
         ACTIONS_RUNNER_DEBUG // will add more log files in the downloaded log archive 
         true
 
     same will work for secrets
+
+    we can set the varible from vs code extension (github actions also)
+
+// sometime need to skip the workflow running without disabling it
+    commit message should contain
+        [skip ci]
+        [ci skip]
+        [no ci]
+        [skip actions]
+        [actions skip]
