@@ -59,3 +59,9 @@ GITHUB_WORKSPACE  / default dir when we run any command
 
 
 https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions?versionId=free-pro-team%40latest&productId=actions&restPage=reference%2Cworkflow-syntax-for-github-actions#defaultsrun
+
+
+
+we can change 
+    workign directory in wf level , job level and step level
+    shell  in wf level , job level and step level
