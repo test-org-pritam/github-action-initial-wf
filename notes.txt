@@ -6,3 +6,14 @@ gh workflow list
 
 gh workflow disable "First Workflow"
 gh workflow enable "First Workflow"
+
+
+cancle wf
+rerun jobs
+rerun failed jobs 
+if multiple rerun happens
+    those will be shown in attempts not in main workflow run section
+we can check workflow files and usage in workflow runs
+
+organization//settings/actions/hosted-runners -> 
+    can monitor the currently running jobs
