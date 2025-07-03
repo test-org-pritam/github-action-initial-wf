@@ -1,0 +1,5 @@
+//to see all the wfs from github cli 
+gh workflow view "First Workflow"
+
+// to view all wf 
+gh workflow list
